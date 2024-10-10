@@ -3,7 +3,7 @@
   <remote fetch="." name="vela" review="github.com" />
   <default remote="vela" revision="main" />
 
-  <project path="apps" name="nuttx" />
+  <project path="apps" name="apps" />
   <project path="nuttx" name="nuttx" >
     <linkfile src="tools/build.sh" dest="build.sh" />
   </project>
