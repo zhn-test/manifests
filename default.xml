@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="." name="vela" review="github.com" />
+  <default remote="vela" revision="main" />
+
+  <project path="apps" name="nuttx-apps" />
+  <project path="nuttx" name="nuttx" >
+    <linkfile src="tools/build.sh" dest="build.sh" />
+  </project>
+</manifest>
