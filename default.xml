@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="." name="vela" review="github.com" />
-  <default remote="vela" revision="main" />
+  <remote fetch="." name="openvela" review="github.com" />
+  <default remote="openvela" revision="main" />
 
   <project path="apps" name="apps" />
   <project path="nuttx" name="nuttx" >
