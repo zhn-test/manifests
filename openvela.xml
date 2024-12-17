@@ -4,7 +4,4 @@
   <default remote="openvela" revision="main" />
 
   <project path="apps" name="apps" />
-  <project path="nuttx" name="nuttx" >
-    <linkfile src="tools/build.sh" dest="build.sh" />
-  </project>
 </manifest>
