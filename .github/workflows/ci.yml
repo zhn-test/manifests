@@ -1,0 +1,21 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  pull_request_target:
+    types: [opened, synchronize]
+  #pull_request_review:
+  #  types: [submitted]
+    #types:
+    #  - review
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  ci:
+    uses: zhn-test/public-actions/.github/workflows/test.yml@main
+    secrets: inherit
